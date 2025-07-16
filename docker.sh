@@ -13,3 +13,6 @@ lvextend -L +10G /dev/RootVG/varVol
 
 xfs_growfs /
 xfs_growfs /var
+
+
+# Need to exit once and relogin again to sync the changes
